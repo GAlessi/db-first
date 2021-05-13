@@ -1,0 +1,28 @@
+
+    body {
+        background: rgb(128, 0, 0);
+        color: white;
+    }
+    .container{
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    a{
+        color: white;
+        text-decoration: none;
+    }
+    a div{
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid black;
+        background-color: rgb(255, 141, 0);
+    }
+
+    .inline{
+        display: inline-block;
+    }

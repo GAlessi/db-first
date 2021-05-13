@@ -19,7 +19,7 @@
 
     function getStanzeDetailsSql() {
         return "
-            SELECT floor, beds
+            SELECT room_number, floor, beds
             FROM stanze
             WHERE id = ?
         ";
